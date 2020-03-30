@@ -4,262 +4,317 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
-    <title>Home - CoronaHelpHub</title>
-    <meta name="description" content="In USA almost 20% of elderly people are in active work group and living pay check to pay check; while they are at high risk group but don't have option to stay home and be safe and considering this is such a severe problem; It's our responsibility as a citizen to help elderly or other vulnerable member of society by providing them physical and moral support. e.g. Help them ordering food. Help them ordering grocery, bring their grocery etc.">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>CoronaHelpHub</title>
+    <meta name="description"
+          content="In USA almost 20% of elderly people are in active work group and living pay check to pay check; while they are at high risk group but don't have option to stay home and be safe and considering this is such a severe problem; It's our responsibility as a citizen to help elderly or other vulnerable member of society by providing them physical and moral support. e.g. Help them ordering food. Help them ordering grocery, bring their grocery etc.">
     <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic,900,900italic">
+    <link rel="stylesheet"
+          href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800">
+    <link rel="stylesheet"
+          href="https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic,900,900italic">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
-    <link rel="stylesheet" href="assets/css/styles.min.css">
+    <link rel="stylesheet" href="assets/css/Footer-Basic.css">
+    <link rel="stylesheet" href="assets/css/Highlight-Blue.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.1.1/aos.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.min.css">
+    <link rel="stylesheet" href="assets/css/Responsive-Form.css">
+    <link rel="stylesheet" href="assets/css/Team-Clean.css">
+    <script>
+        // Initialize and add the map
+        function initMap() {
+            // The location of Uluru
+            var uluru = {lat: -25.344, lng: 131.036};
+            // The map, centered at Uluru
+            var map = new google.maps.Map(
+                document.getElementById('map'), {zoom: 4, center: uluru});
+            // The marker, positioned at Uluru
+            var marker = new google.maps.Marker({position: uluru, map: map});
+        }
+    </script>
+    <!--Load the API from the specified URL
+    * The async attribute allows the browser to render the page while the API loads
+    * The key parameter will contain your own API key (which is not needed for this tutorial)
+    * The callback parameter executes the initMap() function
+    -->
+    <!--<script async defer-->
+    <!--src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDnjl7fHI2H6CoXQusqC4_cpIi2qkeQOM8&callback=initMap">-->
+    <!--</script>-->
 </head>
 
 <body id="page-top">
-    <nav class="navbar navbar-light navbar-expand-lg fixed-top" id="mainNav">
-        <div class="container"><a class="navbar-brand js-scroll-trigger" href="#page-top">CoronaHelpHub</a><button data-toggle="collapse" data-target="#navbarResponsive" class="navbar-toggler navbar-toggler-right" type="button" aria-controls="navbarResponsive" aria-expanded="false"
+<nav class="navbar navbar-light navbar-expand-lg fixed-top" id="mainNav">
+    <div class="container"><a class="navbar-brand js-scroll-trigger" href="#page-top">CoronaHelpHub</a>
+        <button data-toggle="collapse" data-target="#navbarResponsive" class="navbar-toggler navbar-toggler-right"
+                type="button" aria-controls="navbarResponsive" aria-expanded="false"
                 aria-label="Toggle navigation"><i class="fa fa-align-justify"></i></button>
-            <div class="collapse navbar-collapse" id="navbarResponsive">
-                <ul class="nav navbar-nav ml-auto">
-                    <li class="nav-item" role="presentation"><a class="nav-link js-scroll-trigger" href="#about">About</a></li>
-                    <li class="nav-item" role="presentation"><a class="nav-link js-scroll-trigger" href="#volunteer">VOLUNTEER</a></li>
-                    <li class="nav-item" role="presentation"><a class="nav-link js-scroll-trigger" href="#team">TEAM</a></li>
-                    <li class="nav-item" role="presentation"><a class="nav-link" href="#news">NEWS</a></li>
-                    <li class="nav-item" role="presentation"><a class="nav-link js-scroll-trigger" href="#contact">Contact</a></li>
-                    <li class="nav-item" role="presentation"><a class="nav-link bg-secondary border rounded js-scroll-trigger" href="#request-help" style="background-color: #4b4c4d;">REQUEST HELP</a></li>
-                </ul>
-            </div>
-        </div>
-    </nav>
-    <nav class="navbar navbar-light navbar-expand-lg fixed-top" id="mainNav">
-        <div class="container"><a class="navbar-brand js-scroll-trigger" href="index.html#page-top">CoronaHelpHub</a><button data-toggle="collapse" data-target="#navbarResponsive" class="navbar-toggler navbar-toggler-right" type="button" aria-controls="navbarResponsive" aria-expanded="false"
-                aria-label="Toggle navigation"><i class="fa fa-align-justify"></i></button>
-            <div class="collapse navbar-collapse" id="navbarResponsive">
-                <ul class="nav navbar-nav ml-auto">
-                    <li class="nav-item" role="presentation"><a class="nav-link js-scroll-trigger" href="#about">About</a></li>
-                    <li class="nav-item" role="presentation"><a class="nav-link js-scroll-trigger" href="#volunteer">VOLUNTEER</a></li>
-                    <li class="nav-item" role="presentation"><a class="nav-link js-scroll-trigger" href="#team">TEAM</a></li>
-                    <li class="nav-item" role="presentation"><a class="nav-link" href="#news">NEWS</a></li>
-                    <li class="nav-item" role="presentation"><a class="nav-link js-scroll-trigger" href="#contact">Contact</a></li>
-                    <li class="nav-item" role="presentation"><a class="nav-link bg-secondary border rounded js-scroll-trigger" href="#request-help" style="background-color: #4b4c4d;">REQUEST HELP</a></li>
-                </ul>
-            </div>
-        </div>
-    </nav>
-    <header class="masthead text-center text-white d-flex" style="background-image: url('assets/img/fullsize/header.jpg');">
-        <div class="container my-auto">
-            <div class="row">
-                <div class="col-lg-10 mx-auto">
-                    <h1 class="text-uppercase"><strong>CoronaHELPHUB</strong></h1>
-                    <hr>
-                </div>
-            </div>
-            <div class="col-lg-8 mx-auto">
-                <p class="text-faded mb-5">HOTLINE: +1 (800) XXX-XXXX</p><a class="btn btn-primary btn-xl js-scroll-trigger" role="button" href="#request-help">REQUEST HELP NOW!</a></div>
-        </div>
-    </header>
-    <section id="request-help" class="bg-primary">
-        <div class="container">
-            <div class="row">
-                <div class="col offset-lg-8 mx-auto text-center">
-                    <h2 class="text-white section-heading">Request Help Now!</h2>
-                    <hr class="light my-4">
-                    <p class="text-faded mb-4">Request meal delivery, order your usual groceries, or ask for other help you may need. You will be connected with a volunteer shortly!<br></p><a class="btn btn-light btn-xl js-scroll-trigger" role="button" href="request-help.html">Get Started!</a></div>
-            </div>
-        </div>
-    </section>
-    <section id="about">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">About</h2>
-                    <hr class="my-4">
-                    <p>In USA almost 20% of elderly people are in active work group and living pay check to pay check; while they are at high risk group but don't have option to stay home and be safe and considering this is such a severe problem; It's our
-                        responsibility as a citizen to help elderly or other vulnerable member of society by providing them physical and moral support. e.g. Help them ordering food. Help them ordering grocery, bring their grocery etc.<br><br>Many organizations
-                        and individuals are willing to help but don't have the infrastructure ready to support volunteer work. Our platform is one where individuals can find and offer volunteer services.&nbsp;<br></p>
-                </div>
-            </div>
-        </div>
-        <div class="container">
-            <div class="row">
-                <div class="col-md-6 col-lg-3 text-center">
-                    <div class="mx-auto service-box mt-5"><i class="fa fa-phone fa-4x text-primary mb-3 sr-icons" data-aos="zoom-in" data-aos-duration="200" data-aos-once="true"></i>
-                        <h3 class="mb-3">Call for Help</h3>
-                        <p class="text-muted mb-0">Requests for help can be made over phone by calling:<br>+1 (800) XXX-XXXX</p>
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-3 text-center">
-                    <div class="mx-auto service-box mt-5"><i class="fa fa-globe fa-4x text-primary mb-3 sr-icons" data-aos="zoom-in" data-aos-duration="200" data-aos-delay="200" data-aos-once="true"></i>
-                        <h3 class="mb-3">Online Help</h3>
-                        <p class="text-muted mb-0">Help requests can be placed right from our website<br><br><a class="js-scroll-trigger" href="#request-help"><button class="btn btn-primary" type="button">REQUEST HELP</button></a><br></p>
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-3 text-center">
-                    <div class="mx-auto service-box mt-5"><i class="fa fa-newspaper-o fa-4x text-primary mb-3 sr-icons" data-aos="zoom-in" data-aos-duration="200" data-aos-delay="400" data-aos-once="true"></i>
-                        <h3 class="mb-3">Up to Date</h3>
-                        <p class="text-muted mb-0">We consistently update news to provide the latest information about COVID-19 and ways you can stay safe.</p>
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-3 text-center">
-                    <div class="mx-auto service-box mt-5"><i class="fa fa-heart fa-4x text-primary mb-3 sr-icons" data-aos="fade" data-aos-duration="200" data-aos-delay="600" data-aos-once="true"></i>
-                        <h3 class="mb-3">Made with Love</h3>
-                        <p class="text-muted mb-0">Made by a group of volunteers participating in the<br><a href="https://datavant.com/pandemic-response-hackathon/">Pandemic Response Hackathon</a>&nbsp;</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <h3 class="text-center" style="padding-top: 99px;">Served Neighborhoods</h3>
-        <p class="text-center">We serve the following areas:</p>
-        <div class="row">
-            <!-- Start: Table With Search -->
-            <div class="col-auto col-md-12 col-xl-6 text-center search-table-col" style="margin-top: 0px;">
-                <div class="form-group pull-right col-lg-4"><input type="text" class="search form-control" placeholder="Search by typing here.."></div><span class="counter pull-right"></span>
-                <div class="table-responsive table-bordered table table-hover table-bordered results">
-                    <table class="table table-bordered table-hover">
-                        <thead class="bill-header cs">
-                            <tr>
-                                <th id="trs-hd" class="col-lg-1">SL. No.</th>
-                                <th id="trs-hd" class="col-lg-2">Area</th>
-                                <th id="trs-hd" class="col-lg-3">Customer Name</th>
-                                <th id="trs-hd" class="col-lg-2">Company Name</th>
-                                <th id="trs-hd" class="col-lg-2">Member Since</th>
-                                <th id="trs-hd" class="col-lg-2">Action</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <tr class="warning no-result">
-                                <td colspan="12"><i class="fa fa-warning"></i>&nbsp; No Result !!!</td>
-                            </tr>
-                            <tr>
-                                <td>01</td>
-                                <td>India</td>
-                                <td>Souvik Kundu</td>
-                                <td>Bootstrap Stuido</td>
-                                <td>2014</td>
-                                <td><button class="btn btn-success" style="margin-left: 5px;" type="submit"><i class="fa fa-check" style="font-size: 15px;"></i></button><button class="btn btn-danger" style="margin-left: 5px;" type="submit"><i class="fa fa-trash" style="font-size: 15px;"></i></button></td>
-                            </tr>
-                        </tbody>
-                    </table>
-                </div>
-            </div>
-            <!-- End: Table With Search -->
-            <div class="col"><iframe allowfullscreen="" frameborder="0" src="https://www.google.com/maps/embed/v1/place?key=AIzaSyDaEw6o8OhJvRQnTF3gI_tibMejtfasOlY&amp;q=Paris%2C+France&amp;zoom=15" width="100%" height="450"></iframe></div>
-        </div>
-    </section>
-    <section id="volunteer" class="bg-dark text-white">
-        <div class="container text-center">
-            <h2 class="mb-4">Interested in Becoming a Volunteer?</h2><a class="btn btn-light btn-xl sr-button" role="button" data-aos="zoom-in" data-aos-duration="400" data-aos-once="true" href="volunteer.html">Volunteer With us Now!</a></div>
-    </section>
-    <!-- Start: Highlight Blue -->
-    <div id="news" class="highlight-blue">
-        <div class="container">
-            <!-- Start: Intro -->
-            <div class="intro">
-                <h2 class="text-center">News</h2>
-                <p class="text-center">We strive to offer the latest updates and information about COVID-19</p>
-            </div>
-            <!-- End: Intro -->
-            <!-- Start: Buttons -->
-            <div class="buttons"><a class="btn btn-primary" role="button" href="https://www.cdc.gov/coronavirus/2019-ncov/index.html">CDC's INFO</a><a class="btn btn-primary" role="button" href="https://google.com/covid19-map/">GOOGLE's MAP</a></div>
-            <!-- End: Buttons -->
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+            <ul class="nav navbar-nav ml-auto">
+                <li class="nav-item" role="presentation"><a class="nav-link js-scroll-trigger" href="#about">About</a>
+                </li>
+                <li class="nav-item" role="presentation"><a class="nav-link js-scroll-trigger" href="#volunteer">VOLUNTEER</a>
+                </li>
+                <li class="nav-item" role="presentation"><a class="nav-link js-scroll-trigger" href="#team">TEAM</a>
+                </li>
+                <li class="nav-item" role="presentation"><a class="nav-link" href="#news">NEWS</a></li>
+                <li class="nav-item" role="presentation"><a class="nav-link js-scroll-trigger"
+                                                            href="#contact">Contact</a></li>
+                <li class="nav-item" role="presentation"><a
+                        class="nav-link bg-secondary border rounded js-scroll-trigger" href="#request-help"
+                        style="background-color: #4b4c4d;">REQUEST HELP</a></li>
+            </ul>
         </div>
     </div>
-    <!-- End: Highlight Blue -->
-    <!-- Start: Team Clean -->
-    <div id="team" class="team-clean">
-        <div class="container" style="padding-top: 10px;">
-            <!-- Start: Intro -->
-            <div class="intro">
-                <h2 class="text-center">Team </h2>
-                <p class="text-center">Meet the team behind CoronaHelpHub</p>
+</nav>
+<header class="masthead text-center text-white d-flex" style="background-image: url('assets/img/fullsize/header.jpg');">
+    <div class="container my-auto">
+        <div class="row">
+            <div class="col-lg-10 mx-auto">
+                <h1 class="text-uppercase"><strong>CoronaHELPHUB</strong></h1>
+                <hr>
             </div>
-            <!-- End: Intro -->
-            <!-- Start: People -->
-            <div class="row people">
-                <div class="col-md-6 col-lg-4 item"><img class="rounded-circle" src="assets/img/navnit.jpeg">
-                    <h3 class="name">Navnit Shukla<br></h3>
-                    <p class="title">DEVELOPER</p>
-                    <p class="description">Navnit works for Amazon and looking forward to help fello citizen to go this this hard time.<br></p>
-                    <div class="social"><a href="mailto:navnit.shukla25@gmail.com"><i class="fa fa-envelope-o"></i></a><a href="https://twitter.com/Navnit_Shukla"><i class="fa fa-twitter"></i></a><a href="https://www.linkedin.com/in/navnitshukla/"><i class="fa fa-linkedin"></i></a></div>
+        </div>
+        <div class="col-lg-8 mx-auto">
+            <p class="text-faded mb-5">Need a meal delivered, an errand run, or your groceries brought to you? We're
+                here to help!<br>Call us at: +1 (833) 309-0793<br></p><a
+                class="btn btn-primary btn-xl js-scroll-trigger" role="button" href="#request-help">REQUEST HELP
+            NOW!</a></div>
+    </div>
+</header>
+<section id="request-help" class="bg-primary">
+    <div class="container">
+        <div class="row">
+            <div class="col offset-lg-8 mx-auto text-center">
+                <h2 class="text-white section-heading">Request Help Now!</h2>
+                <hr class="light my-4">
+                <p class="text-faded mb-4">Request meal delivery, order your usual groceries, or ask for other help you
+                    may need. You will be connected with a volunteer shortly!<br></p><a
+                    class="btn btn-light btn-xl js-scroll-trigger" role="button" href="request-help.html">Get
+                Started!</a></div>
+        </div>
+    </div>
+</section>
+<section id="about">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <h2 class="section-heading">About</h2>
+                <hr class="my-4">
+                <p>In USA almost 20% of elderly people are in active work group and living pay check to pay check; while
+                    they are at high risk group but don't have option to stay home and be safe and considering this is
+                    such a severe problem; It's our
+                    responsibility as a citizen to help elderly or other vulnerable member of society by providing them
+                    physical and moral support. e.g. Help them ordering food. Help them ordering grocery, bring their
+                    grocery etc.<br><br>Many organizations
+                    and individuals are willing to help but don't have the infrastructure ready to support volunteer
+                    work. Our platform is one where individuals can find and offer volunteer services.&nbsp;<br></p>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 col-lg-3 text-center">
+                <div class="mx-auto service-box mt-5"><i class="fa fa-phone fa-4x text-primary mb-3 sr-icons"
+                                                         data-aos="zoom-in" data-aos-duration="200"
+                                                         data-aos-once="true"></i>
+                    <h3 class="mb-3">Call for Help</h3>
+                    <p class="text-muted mb-0">Requests for help can be made over phone by calling:<br>+1 (833) 309-0793<br>
+                    </p>
                 </div>
-                <div class="col-md-6 col-lg-4 item"><img class="rounded-circle" src="assets/img/shiv.jpg">
-                    <h3 class="name">Shiv Trivedi</h3>
-                    <p class="title">DEVELOPER</p>
-                    <p class="description">Rising senior in high school. Love programming, biking, reading, and cooking. Interested in machine learning/artificial intelligence, app development, vision processing, and web design.<br><a href="https://shivvtrivedi.com/" target="_blank">Website</a></p>
-                    <div
-                        class="social"><a href="mailto:shiv.v.trivedi@gmail.com"><i class="fa fa-envelope-o"></i></a><a href="https://github.com/shiv213"><i class="fa fa-github"></i></a><a href="https://www.instagram.com/shivvtrivedi/"><i class="fa fa-instagram"></i></a></div>
+            </div>
+            <div class="col-md-6 col-lg-3 text-center">
+                <div class="mx-auto service-box mt-5"><i class="fa fa-globe fa-4x text-primary mb-3 sr-icons"
+                                                         data-aos="zoom-in" data-aos-duration="200" data-aos-delay="200"
+                                                         data-aos-once="true"></i>
+                    <h3 class="mb-3">Online Help</h3>
+                    <p class="text-muted mb-0">Help requests can be placed right from our website<br><br><a
+                            class="js-scroll-trigger" href="#request-help">
+                        <button class="btn btn-primary" type="button">REQUEST HELP</button>
+                    </a><br></p>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-3 text-center">
+                <div class="mx-auto service-box mt-5"><i class="fa fa-newspaper-o fa-4x text-primary mb-3 sr-icons"
+                                                         data-aos="zoom-in" data-aos-duration="200" data-aos-delay="400"
+                                                         data-aos-once="true"></i>
+                    <h3 class="mb-3">Up to Date</h3>
+                    <p class="text-muted mb-0">We consistently update news to provide the latest information about
+                        COVID-19 and ways you can stay safe.</p>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-3 text-center">
+                <div class="mx-auto service-box mt-5"><i class="fa fa-heart fa-4x text-primary mb-3 sr-icons"
+                                                         data-aos="fade" data-aos-duration="200" data-aos-delay="600"
+                                                         data-aos-once="true"></i>
+                    <h3 class="mb-3">Made with Love</h3>
+                    <p class="text-muted mb-0">Made by a group of volunteers participating in the<br><a
+                            href="https://datavant.com/pandemic-response-hackathon/">Pandemic Response Hackathon</a>&nbsp;
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <h3 class="text-center" style="padding-top: 99px;">Served Neighborhoods</h3>
+    <p class="text-center">We serve the following areas:</p>
+    <div class="row">
+        <!-- Start: Table With Search -->
+        <div class="col-auto col-md-12 col-xl-6 text-center search-table-col" style="padding: 2%; margin-top: 0;">
+            <table class="table table-bordered table-hover">
+                <thead class="bill-header">
+                <tr>
+                    <th class="col-lg-2">Area</th>
+                    <th class="col-lg-2">Active Volunteers</th>
+                    <th class="col-lg-2">Date Added</th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <td>Miami, FL</td>
+                    <td>2</td>
+                    <td>3/29/2020</td>
+                </tr>
+                </tbody>
+            </table>
+        </div>
+        <!-- End: Table With Search -->
+        <div class="col">
+            <iframe allowfullscreen="" frameborder="0"
+                    src="https://www.google.com/maps/embed/v1/place?key=AIzaSyDnjl7fHI2H6CoXQusqC4_cpIi2qkeQOM8&amp;q=Miami%2C+Florida&amp;zoom=15"
+                    width="100%" height="450"></iframe>
+        </div>
+    </div>
+</section>
+<section id="volunteer" class="bg-dark text-white">
+    <div class="container text-center">
+        <h2 class="mb-4">Interested in Becoming a Volunteer?</h2><a class="btn btn-light btn-xl sr-button" role="button"
+                                                                    data-aos="zoom-in" data-aos-duration="400"
+                                                                    data-aos-once="true" href="volunteer.html">Volunteer
+        With us Now!</a></div>
+</section>
+<!-- Start: Highlight Blue -->
+<div id="news" class="highlight-blue">
+    <div class="container">
+        <!-- Start: Intro -->
+        <div class="intro">
+            <h2 class="text-center">News</h2>
+            <p class="text-center">We strive to offer the latest updates and information about COVID-19</p>
+        </div>
+        <!-- End: Intro -->
+        <!-- Start: Buttons -->
+        <div class="buttons"><a class="btn btn-primary" role="button"
+                                href="https://www.cdc.gov/coronavirus/2019-ncov/index.html">CDC's INFO</a><a
+                class="btn btn-primary" role="button" href="https://google.com/covid19-map/">COVID-19 Map<br></a></div>
+        <!-- End: Buttons -->
+    </div>
+</div>
+<!-- End: Highlight Blue -->
+<!-- Start: Team Clean -->
+<div id="team" class="team-clean">
+    <div class="container" style="padding-top: 10px;">
+        <!-- Start: Intro -->
+        <div class="intro">
+            <h2 class="text-center">Team </h2>
+            <p class="text-center">Meet the team behind CoronaHelpHub</p>
+        </div>
+        <!-- End: Intro -->
+        <!-- Start: People -->
+        <div class="row people">
+            <div class="col-md-6 col-lg-4 item"><img class="rounded-circle" src="assets/img/navnit.jpeg">
+                <h3 class="name">Navnit Shukla<br></h3>
+                <p class="title">DEVELOPER</p>
+                <p class="description">Navnit works for Amazon and looking forward to help fello citizen to go this this
+                    hard time.<br></p>
+                <div class="social"><a href="mailto:navnit.shukla25@gmail.com"><i class="fa fa-envelope-o"></i></a><a
+                        href="https://twitter.com/Navnit_Shukla"><i class="fa fa-twitter"></i></a><a
+                        href="https://www.linkedin.com/in/navnitshukla/"><i class="fa fa-linkedin"></i></a></div>
+            </div>
+            <div class="col-md-6 col-lg-4 item"><img class="rounded-circle" src="assets/img/shiv.jpg">
+                <h3 class="name">Shiv Trivedi</h3>
+                <p class="title">DEVELOPER</p>
+                <p class="description">Rising senior in high school. Love programming, biking, reading, and cooking.
+                    Interested in machine learning/artificial intelligence, app development, vision processing, and web
+                    design.<br><a href="https://shivvtrivedi.com/" target="_blank">Website</a></p>
+                <div
+                        class="social"><a href="mailto:shiv.v.trivedi@gmail.com"><i class="fa fa-envelope-o"></i></a><a
+                        href="https://github.com/shiv213"><i class="fa fa-github"></i></a><a
+                        href="https://www.instagram.com/shivvtrivedi/"><i class="fa fa-instagram"></i></a></div>
             </div>
             <div class="col-md-6 col-lg-4 item"><img class="rounded-circle" src="assets/img/3.jpg">
                 <h3 class="name">Other Person</h3>
                 <p class="title">Not sure yet i think</p>
-                <p class="description">Aenean tortor est, vulputate quis leo in, vehicula rhoncus lacus. Praesent aliquam in tellus eu gravida. Aliquam varius finibus est, et interdum justo suscipit id. Etiam dictum feugiat tellus, a semper massa. </p>
-                <div class="social"><a href="#"><i class="fa fa-facebook-official"></i></a><a href="#"><i class="fa fa-twitter"></i></a><a href="#"><i class="fa fa-instagram"></i></a></div>
+                <p class="description">Aenean tortor est, vulputate quis leo in, vehicula rhoncus lacus. Praesent
+                    aliquam in tellus eu gravida. Aliquam varius finibus est, et interdum justo suscipit id. Etiam
+                    dictum feugiat tellus, a semper massa. </p>
+                <div class="social"><a href="#"><i class="fa fa-facebook-official"></i></a><a href="#"><i
+                        class="fa fa-twitter"></i></a><a href="#"><i class="fa fa-instagram"></i></a></div>
             </div>
         </div>
         <!-- End: People -->
     </div>
-    </div>
-    <!-- End: Team Clean -->
-    <section id="contact" style="padding-bottom: 64px;">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-8 mx-auto text-center">
-                    <h2 class="section-heading">Contact Us</h2>
-                    <hr class="my-4">
-                    <p class="mb-5">Have any questions or concerns? Give us a call or send us an email and we will get back to you as soon as possible!</p>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-lg-4 ml-auto text-center"><i class="fa fa-phone fa-3x mb-3 sr-contact" data-aos="zoom-in" data-aos-duration="300" data-aos-once="true"></i>
-                    <p>123-456-6789</p>
-                </div>
-                <div class="col-lg-4 mr-auto text-center"><i class="fa fa-envelope-o fa-3x mb-3 sr-contact" data-aos="zoom-in" data-aos-duration="300" data-aos-delay="300" data-aos-once="true"></i>
-                    <p><a href="mailto:your-email@your-domain.com">email@example.com</a></p>
-                </div>
+</div>
+<!-- End: Team Clean -->
+<section id="contact" style="padding-bottom: 64px;">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 mx-auto text-center">
+                <h2 class="section-heading">Contact Us</h2>
+                <hr class="my-4">
+                <p class="mb-5">Have any questions or concerns? Give us a call or send us an email and we will get back
+                    to you as soon as possible!</p>
             </div>
         </div>
-    </section>
-    <!-- Start: Footer Basic -->
-    <div class="footer-basic" style="background-color: #4b4c4d;">
-        <p class="text-center text-white" style="color: #ffffff;">This is a volunteer effort, please bear with us as we try our best to increase availaibility in different areas. Though we are making every effort to see help requests through, we assume no liability for any mishandling, incorrect orders, or theft.
-            <br>We’re here to support you and look forward to being able to connect community members with resources and assistance.<br></p>
-        <footer>
-            <!-- Start: Social Icons -->
-            <div class="text-primary social"><a href="#"><i class="icon ion-social-instagram"></i></a><a href="#"><i class="icon ion-social-snapchat"></i></a><a href="#"><i class="icon ion-social-twitter"></i></a><a href="#"><i class="icon ion-social-facebook"></i></a></div>
-            <!-- End: Social Icons -->
-            <div class="collapse navbar-collapse" id="navbarResponsive">
-                <ul class="nav nav-tabs ml-auto">
-                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#about">About</a></li>
-                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#volunteer">VOLUNTEER</a></li>
-                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#team">TEAM</a></li>
-                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#contact">Contact</a></li>
-                    <li class="nav-item"><a class="nav-link bg-secondary border rounded js-scroll-trigger" href="#request-help">REQUEST HELP</a></li>
-                </ul>
+        <div class="row">
+            <div class="col-lg-4 ml-auto text-center"><i class="fa fa-phone fa-3x mb-3 sr-contact" data-aos="zoom-in"
+                                                         data-aos-duration="300" data-aos-once="true"></i>
+                <p>+1 (833) 309-0793<br></p>
             </div>
-            <!-- Start: Links -->
-            <ul class="list-inline text-light">
-                <li class="list-inline-item"><a href="#about">About</a></li>
-                <li class="list-inline-item"><a href="#volunteer">Volunteer</a></li>
-                <li class="list-inline-item"><a href="#team">Team</a></li>
-                <li class="list-inline-item"><a href="#news">News</a></li>
-                <li class="list-inline-item"><a href="#contact">Contact</a></li>
-                <li class="list-inline-item"><a href="#request-help">Request Help</a></li>
-            </ul>
-            <!-- End: Links -->
-            <!-- Start: Copyright -->
-            <p class="copyright">CoronaHelpHub © 2020</p>
-            <!-- End: Copyright -->
-        </footer>
+            <div class="col-lg-4 mr-auto text-center"><i class="fa fa-envelope-o fa-3x mb-3 sr-contact"
+                                                         data-aos="zoom-in" data-aos-duration="300" data-aos-delay="300"
+                                                         data-aos-once="true"></i>
+                <p><a href="mailto:coronahelphub@gmail.com">coronahelphub@gmail.com<br></a></p>
+            </div>
+        </div>
     </div>
-    <!-- End: Footer Basic -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.1.1/aos.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script>
-    <script src="assets/js/script.min.js"></script>
-</body>
+</section>
+<!-- Start: Footer Basic -->
+<div class="footer-basic" style="background-color: #4b4c4d;">
+    <p class="text-center text-white" style="padding-left: 2%; padding-right: 2%; color: #ffffff;">This is a volunteer
+        effort, please bear with us as we try
+        our best to increase availaibility in different areas. Though we are making every effort to see help requests
+        through, we assume no liability for any mishandling, incorrect orders, or theft.
+        <br>We’re here to support you and look forward to being able to connect community members with resources and
+        assistance.<br></p>
+    <footer>
+        <!-- Start: Social Icons -->
+        <div class="text-primary social"><a href="#"><i class="icon ion-social-instagram"></i></a><a href="#"><i
+                class="icon ion-social-snapchat"></i></a><a href="#"><i class="icon ion-social-twitter"></i></a><a
+                href="#"><i class="icon ion-social-facebook"></i></a></div>
+        <!-- End: Social Icons -->
 
+        <!-- Start: Links -->
+        <ul class="list-inline text-light">
+            <li class="list-inline-item"><a href="#about">About</a></li>
+            <li class="list-inline-item"><a href="#volunteer">Volunteer</a></li>
+            <li class="list-inline-item"><a href="#team">Team</a></li>
+            <li class="list-inline-item"><a href="#news">News</a></li>
+            <li class="list-inline-item"><a href="#contact">Contact</a></li>
+            <li class="list-inline-item"><a href="#request-help">Request Help</a></li>
+        </ul>
+        <!-- End: Links -->
+        <!-- Start: Copyright -->
+        <p class="copyright">CoronaHelpHub © 2020</p>
+        <!-- End: Copyright -->
+    </footer>
+</div>
+<!-- End: Footer Basic -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
+<script src="assets/js/bs-init.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.1.1/aos.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script>
+<script src="assets/js/creative.js"></script>
+</body>
 </html>
